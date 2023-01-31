@@ -1,5 +1,5 @@
 import "../scss/app.scss";
-const R = require('ramda');
+import * as R from 'ramda';
 
 window.addEventListener("DOMContentLoaded", () => {
   const articles = document.querySelectorAll("article");
